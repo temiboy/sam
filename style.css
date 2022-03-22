@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.checked{
+    color: rgb(226, 8, 8);
+    
+}
+
+body{
+      background-image: url(/images/IMG-20220317-WA0001.jpg);
+     
+    
+  } 
+
+.head{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 700;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 2rem;
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+h1{
+   margin-bottom: 0;
+   margin-left: 7%;
+   font-size: 20px;
+   font-weight: 900;
+   text-align: center;
+}
+@media (max-width: 480px){
+    h1{font-size: 15px;}
+}
+
+.star{
+    text-align: center;
+}
+.heading{
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+ul li{
+    list-style: none;
+    border: 2px solid pink;
+    padding: 10px 20px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   margin-left: 30%;
+   margin-right: 30%;  
+    background: green;
+}
+
+ul li a{
+    text-decoration: none;
+    width: 50%;  
+    color: white;
+    font-weight: 600;
+    
+}
+@media (max-width: 480px){
+    ul li{
+        border: 20px;
+        width: 60%;
+        margin-left: 20%;
+    }
+    ul li a{
+        width: 120%;
+        font-weight: lighter;
+
+    }
+}
+
+p{
+    margin-top: 7px;
+    margin-bottom: 20px;
+    padding: 0;
+    margin-left: 42%; 
+    color: green;  
+    font-weight: bold;
+}
+@media (max-width: 480px){
+    p{font-size: 15px;
+    margin-left: 20%;}
+    
+}
+
+.far{
+    position: absolute;
+    top: 32.5%;
+    left: 38.5%;   
+    color: rgb(1, 56, 1);
+}
+@media (max-width: 480px){
+    .far{
+        top: 80%;
+        left: 6%;
+    }
+}
+
+.far1{
+    position: absolute;
+    top: 53.5%;
+    left: 38.5%;   
+    color: rgb(1, 56, 1);
+}
+@media (max-width: 480px){
+    .far1{
+        top: 104%;
+        left: 6%;
+    }
+}
+
+.far2{
+    position: absolute;
+    top: 43%;
+    left: 38.5%;   
+    color: rgb(1, 56, 1);
+}
+@media (max-width: 480px){
+    .far2{
+        top: 127%;
+        left: 6%;
+    }
+}
+
+.bod{
+    line-height: 20px;
+    margin-top: 28px;
+}
+
+h4{
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 7px;
+}
+h5{
+    text-align: center;
+    font-weight: bold;
+    line-height: 15px;
+    padding: 20px;
+    font-size: 15px;
+}
