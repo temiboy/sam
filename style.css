@@ -82,7 +82,7 @@ ul li a{
     font-weight: 600;
     
 }
-@media (max-width: 320px){
+@media (max-width: 480px){
     ul li{
         border: 20px;
         width: 80%;
