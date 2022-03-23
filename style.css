@@ -40,6 +40,23 @@ h1{
 .star{
     text-align: center;
 }
+
+table.cent, table.cent1, table.cent2{
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.box{
+    color: rgba(12, 53, 12, 0.918);
+    padding-right: 10px;   
+}
+
+.bod,.bod1,.bod2{
+    color: green;
+    font-weight: 600;
+}
+
 .heading{
     font-size: 20px;
     padding-left: 20px;
@@ -77,65 +94,6 @@ ul li a{
 
     }
 }
-
-p{
-    margin-top: 7px;
-    margin-bottom: 20px;
-    padding: 0;
-    margin-left: 42%; 
-    color: green;  
-    font-weight: bold;
-}
-@media (max-width: 320px){
-    p{font-size: 15px;
-    margin-left: 20%;}
-    
-}
-
-.far{
-    position: absolute;
-    top: 32.5%;
-    left: 38.5%;   
-    color: rgb(1, 56, 1);
-}
-@media (max-width: 480px){
-    .far{
-        top: 43%;
-        left: 6%;
-    }
-}
-
-.far1{
-    position: absolute;
-    top: 53.5%;
-    left: 38.5%;   
-    color: rgb(1, 56, 1);
-}
-@media (max-width: 320px){
-    .far1{
-        top: 57%;
-        left: 6%;
-    }
-}
-
-.far2{
-    position: absolute;
-    top: 43%;
-    left: 38.5%;   
-    color: rgb(1, 56, 1);
-}
-@media (max-width: 320px){
-    .far2{
-        top: 70%;
-        left: 6%;
-    }
-}
-
-.bod{
-    line-height: 20px;
-    margin-top: 28px;
-}
-
 h4{
     text-align: center;
     margin-top: 5rem;
@@ -149,7 +107,7 @@ h5{
     font-size: 15px;
 }
 
-@media (max-width: 320px){
+@media only screen and (max-width: 320px){
     body{
         width: 100%;
     }
